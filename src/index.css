@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btnGradient {
+    @apply w-full 
+      bg-gradient-to-r
+    from-primaryGradient-from 
+    to-primaryGradient-to 
+    text-white 
+      p-4 
+      rounded-md 
+      tracking-widest 
+      border-1
+      border-primaryGradient-to/0
+      hover:text-primaryGradient-to
+      hover:bg-none
+      hover:border-primaryGradient-to;
+  }
+  .btnWhite {
+    @apply w-full 
+      bg-white 
+      text-primaryGradient-to 
+      p-4 
+      rounded-md 
+      tracking-widest
+      border-1
+      border-white/0
+      hover:text-white
+      hover:bg-transparent
+      hover:border-white;
+  }
+}
