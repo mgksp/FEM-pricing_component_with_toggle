@@ -27,11 +27,9 @@ export default function Card({
         {price}
       </h2>
       <div className="mb-8">
-        <ul className="border-y-[1px]">
-          <li className="py-4">{whatYouGet[0]}</li>
-          <hr />
-          <li className="py-4">{whatYouGet[1]}</li>
-          <hr />
+        <ul className="border-y-1">
+          <li className="py-4 border-b-1">{whatYouGet[0]}</li>
+          <li className="py-4 border-b-1">{whatYouGet[1]}</li>
           <li className="py-4">{whatYouGet[2]}</li>
         </ul>
       </div>

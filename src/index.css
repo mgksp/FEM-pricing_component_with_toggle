@@ -9,7 +9,7 @@
     from-primaryGradient-from 
     to-primaryGradient-to 
     text-white 
-      p-4 
+      p-3 
       rounded-md 
       tracking-widest 
       border-1
@@ -22,7 +22,7 @@
     @apply w-full 
       bg-white 
       text-primaryGradient-to 
-      p-4 
+      p-3
       rounded-md 
       tracking-widest
       border-1
