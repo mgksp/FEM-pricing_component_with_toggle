@@ -3,7 +3,7 @@
 ### Links
 
 [Challenge from FrontendMentor](https://www.frontendmentor.io/challenges/pricing-component-with-toggle-8vPwRMIC)\
-[Live site here]()
+[Live site here](https://mgksp-fem-pricing-component.netlify.app/)
 
 ### Screenshots
 
